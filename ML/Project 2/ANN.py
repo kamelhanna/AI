@@ -13,10 +13,6 @@ df.head()
 
 df.describe()
 
-#remove unused colunms
-#df = df.drop(['Col7','Col8','Col9','Col10','Col11','Col12'], axis=1)
-df.head()
-
 #assign input and output 
 y = df['Class_att']
 x = df.drop(['Class_att'], axis=1)
